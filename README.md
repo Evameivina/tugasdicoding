@@ -15,7 +15,7 @@
 - Streamlit
 - Library pendukung lainnya: Pandas, Matplotlib, Seaborn, Plotly
 
-## 1. Setup Environment (Anaconda)
+## Setup Environment (Anaconda)
 conda create --name dashboard-env python=3.9
 conda activate dashboard-env
 pip install -r requirements.txt
