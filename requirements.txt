@@ -1,0 +1,37 @@
+Library - library yang digunakan
+
+1. Pandas:
+
+Untuk manipulasi data, seperti membaca dataset, menggabungkan tabel, mengelompokkan data, dan menghitung statistik.
+
+Contoh: pd.read_csv(), merge(), groupby(), value_counts().
+
+2. NumPy:
+
+Membantu operasi numerik, seperti perhitungan statistik dan manipulasi array.
+
+Contoh: np.percentile(), np.datetime64().
+
+3. Matplotlib:
+
+Membuat visualisasi data dasar, seperti bar chart, line chart, dan scatter plot.
+
+Contoh: plt.figure(), plt.bar(), plt.boxplot().
+
+4. Seaborn:
+
+Membuat visualisasi data yang lebih estetik dan informatif, dengan style bawaan yang bagus.
+
+Contoh: sns.barplot(), sns.histplot(), sns.boxplot().
+
+5. Datetime:
+
+Mengelola dan memproses data waktu dan tanggal.
+
+Contoh: pd.to_datetime(), datetime.now().
+
+6. Streamlit:
+
+Membuat dashboard web interaktif dengan Python, menampilkan grafik, tabel, dan input pengguna.
+
+Contoh: st.write(), st.bar_chart(), st.dataframe(), st.cache_data().
