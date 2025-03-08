@@ -9,17 +9,16 @@
 - **Seaborn:** Visualisasi yang lebih estetik  
 - **Streamlit:** Dashboard interaktif
 
-- Sebelum menjalankan dashboard, pastikan telah menginstal:
+## Sebelum menjalankan dashboard, pastikan telah menginstal:
 - Python (versi 3.9 atau lebih baru)
 - VSCode (Visual Studio Code)
 - Streamlit
 - Library pendukung lainnya: Pandas, Matplotlib, Seaborn, Plotly
 
-#### 1. Setup Environment (Anaconda)
+## 1. Setup Environment (Anaconda)
 conda create --name dashboard-env python=3.9
 conda activate dashboard-env
 pip install -r requirements.txt
-
 
 ## Buat folder proyek (jika belum)
 mkdir proyek_analisis_data
@@ -35,7 +34,7 @@ pip install -r requirements.txt
 
 # Menjalankan Dashboard
 
-### Pastikan Anda berada di direktori proyek di VSCode atau terminal, lalu jalankan perintah berikut:
+## Pastikan berada di direktori proyek di VSCode atau terminal, lalu jalankan perintah berikut:
 
 streamlit run dashboard.py
 
